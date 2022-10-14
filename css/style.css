@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -11,10 +16,43 @@ header {
   color: black;
 }
 
+main {
+  font-size: 0;
+}
+
 a {
   text-decoration: none;
   border: 2px solid black;
   border-radius: 2px;
   padding: 1px;
   background-color: lightpink;
+}
+
+.info {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.info2 {
+  color: black;
+  background-color: lightpink;
+  border: 1px solid lightpink;
+  font-size: 16px;
+}
+
+.info3 {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.news {
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  border: 1px solid black;
+  background-color: black;
+  vertical-align: top;
+  padding: 2px;
 }
